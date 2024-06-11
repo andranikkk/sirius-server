@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npx prisma generate && node ./bin/www",
+    "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
